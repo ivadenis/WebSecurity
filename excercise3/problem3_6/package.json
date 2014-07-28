@@ -1,0 +1,18 @@
+{
+  "name": "problem3_4",
+  "version": "0.0.0",
+  "description": "Web Security",
+  "main": "cryptoCurrLedger.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node cryptoCurrLedger.js priv.txt pub.txt 9000"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "keypair": "^1.0.0"
+  },
+  "dependencies": {
+    "underscore": "^1.6.0"
+  }
+}
